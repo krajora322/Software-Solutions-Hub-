@@ -1,0 +1,179 @@
+/* Reset default margin and padding for all elements */
+* 
+
+{
+    margin: 0;
+    padding: 0;
+  }
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  header h1.logo {
+    font-size: 24px;
+  }
+  
+  header nav ul {
+    list-style: none;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .main {
+    padding: 40px 0;
+  }
+  
+  .hero {
+    background-image: url("your-background-image.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+ .about,
+  .services,
+  .contact {
+    padding: 40px 0;
+  }
+  
+  .about h2,
+  .services h2,
+  .contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .service-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .service-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    font-size: 16px;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .contact input,
+  .contact textarea,
+  .contact button {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .contact button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  
+  /* Add any additional styles you need */
+  /* Cards */
+.outer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    position: relative;
+    width: 150px;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+  }
+  
+  .card:hover img {
+    transform: scale(1.1);
+  }
+  
+  .card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    transition: transform 0.5s ease;
+    transform: translateX(100%);
+  }
+  
+  .card:hover .card-overlay {
+    transform: translateX(0);
+  }
+  
