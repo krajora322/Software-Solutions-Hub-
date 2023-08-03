@@ -18,3 +18,8 @@ The "Software Development Solutions Hub" project produced an attractive and full
 #Usage:
 
 The "Software Development Solutions Hub" project produced an attractive and fully functional website that successfully displays the company's team, services, and portfolio. The website is simple to navigate, and visitors can learn about the company's mission and vision, view earlier projects, and contact the team by filling out the inquiry form. The company can now receive inquiries directly via email thanks to the integration of the backend server and Nodemailer, which streamlines communication with prospective customers.
+
+Screeshot:
+
+![image](https://github.com/krajora322/Software-Solutions-Hub-/assets/83367556/7d92a1e2-9ef7-4f1b-bfbb-65f56d824034)
+
